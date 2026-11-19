@@ -1,1 +1,43 @@
-{"source_database_id":"41d13c0b-3bc1-81b8-be9f-e0dd542a4d63","source_database_name":"Task Status Table","notion_page_name":"Task Tracker","branch":"finalpool","base_path":"tasks/finalpool","implemented_task_count":54,"implementing_task_count_excluded":33,"total_notion_tasks":87,"representation":"directory_marker","marker_pattern":"tasks/finalpool/{task-name}/.gitkeep","inclusion_rule":"Notion Task Status == implemented","verification":{"sampled_implemented_directories_present":["activity-logger","canvas-automation","content-scheduler","deployment-tool","feedback-collector","reminder-service","qr-generator","network-analyzer"],"sampled_excluded_directory_absent":["lead-tracker"],"count_reconciled_to_notion_records":true},"task_records":"Use Notion Task Tracker for implementor assignments and Notion page IDs; directory names match Task Name values."}
+{
+  "source_database_id": "41d13c0b-3bc1-81b8-be9f-e0dd542a4d63",
+  "source_database_name": "Task Status Table",
+  "notion_page_name": "Task Tracker",
+  "branch": "finalpool",
+  "base_path": "tasks/finalpool",
+  "full_task_records_file": "tasks/finalpool/MANIFEST.csv",
+  "counts": {
+    "total_notion_tasks": 87,
+    "implemented": 54,
+    "implementing_excluded": 33
+  },
+  "representation": "directory_marker",
+  "marker_pattern": "tasks/finalpool/{task-name}/.gitkeep",
+  "by_owner": {
+    "fan-dev": 2,
+    "gyy": 4,
+    "haoze": 2,
+    "jl_dev": 3,
+    "junteng_dev": 7,
+    "junxian_dev": 2,
+    "lueyang-dev": 6,
+    "lv": 5,
+    "ruige": 4,
+    "wenshuo-dev": 2,
+    "xiaochen_dev": 5,
+    "yuxuan-dev": 4,
+    "yuzhen-dev": 6,
+    "zhaochen": 2
+  },
+  "audit": {
+    "implemented_names_sha256": "9c6feabfed534298ea22084a50a85c08374ec913e2fa33358d7315167bc24e50",
+    "implemented_names_sha256_prefix": "9c6feabfed534298",
+    "expected_marker_files": 54,
+    "verified_marker_files_readable": 54,
+    "all_expected_marker_files_verified_readable": true,
+    "negative_spot_check_absent": [
+      "lead-tracker"
+    ],
+    "excluded_marker_paths_generated_by_audit_job": 0,
+    "note": "All 54 expected .gitkeep marker files were read successfully through the GitHub Contents API; absence was spot-checked for one excluded implementing task."
+  }
+}
